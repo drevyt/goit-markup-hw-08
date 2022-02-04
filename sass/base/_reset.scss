@@ -1,0 +1,22 @@
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.logo__accent {
+    color: var(--title-text-color);
+}
+
+.hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -1px;
+    margin-bottom: 0;
+        /*display: none;
+    color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 0;*/
+}

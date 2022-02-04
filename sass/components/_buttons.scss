@@ -1,0 +1,113 @@
+/*button*/
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    font-family: inherit;
+    cursor: pointer;   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+            
+
+.hero__button {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    
+    border-radius: 4px;
+}
+.filter__button {
+    background-color: var(--background-button-color);
+    color: var(--title-text-color);
+}
+
+.hero .button {
+    min-width: 200px;
+    padding: 10px 32px;
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    &:hover,
+    &:focus {
+    background-color: var(--background-hover-color);
+    color: var(--text-button-color);
+    }
+}
+
+.submit-button, .modal-button { 
+    min-width: 200px;
+    padding: 10px 29px;
+    border: 1px solid transparent;
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.button {
+    padding: 6px 22px;
+    min-width: 73px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    .filter &:hover,
+    .filter &:focus {
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+.filter__item + .filter__item {
+    margin-left: 8px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;    
+}
+
+.submit-button {
+    display: inline-flex;
+    align-items: center;
+
+    &::after {
+        content: '';
+        width: 24px;
+        height: 24px;    
+        background-image: url('../images/icons.svg/mecedj.svg');
+        background-size: contain;
+        margin-left: 10px;
+    }
+
+    &:hover,
+    &:focus {
+    background-color: var(--background-hover-color);
+    color: var(--text-button-color);
+    }
+}
+
+

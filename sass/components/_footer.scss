@@ -1,0 +1,115 @@
+/*Footer*/
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-fon-color);
+
+    color: var(--text-button-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer__logo {
+    margin-right: 0;
+}
+address {
+    margin-top: 20px;
+}
+
+.footers .link  {
+    display: block;
+    
+    color: var(--text-button-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
+} 
+
+.footers__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+/*.footer__contact {
+
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}*/
+
+.footer__logo--accent {
+    color: var(--text-button-color);
+}
+
+/*Footer-contact*/
+.footer__contact {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    flex-grow: id;
+    margin-right: 70px;
+}
+
+.footer-social {
+    margin-right: 93px;
+}
+.footer-social__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.social-icons__link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*.footer-form-field {
+    margin-right: 12px;
+}*/
+
+.footer-form__input {
+    width: 358px;
+    margin: 0;
+    padding: 15px 16px;
+    background-color: var(--background-fon-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-right: 12px;
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.submit-button, .modal-button { 
+    min-width: 200px;
+    padding: 10px 29px;
+    border: 1px solid transparent;
+    background-color: var(--accent-color);
+    color: var(--text-button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 

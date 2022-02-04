@@ -1,0 +1,21 @@
+:root {
+    --primary-background-color: #FFFFFF;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-hover-color: #188CE8;
+    --text-color: #757575;
+    --text-button-color: #FFFFFF;
+    --background-button-color: #F5F4FA;
+    --background-fon-color: #2F303A;
+    --fill-icon-color: #afb1b8;
+    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);   
+}
+/*$ - перемінна*/
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+}
+
