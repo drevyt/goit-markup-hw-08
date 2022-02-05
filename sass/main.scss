@@ -1,6 +1,7 @@
 
 @import './utils/_variables.scss';
 @import './base/_reset.scss';
+@import './base/_breakpoints.scss';
 @import './components/_container.scss';
 @import './components/_header.scss';
 @import './components/_section.scss';
@@ -16,4 +17,4 @@
 @import './components/_backdrop.scss';
 
 /*Portfolio*/
-@import './components/_portfolio.scss'
+@import './components/_portfolio.scss';

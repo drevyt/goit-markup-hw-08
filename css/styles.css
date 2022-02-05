@@ -38,9 +38,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    /*outline: 2px solid red;
-    background-color: aqua;*/
-    
+        
 }
 
 .accent {
@@ -461,7 +459,7 @@ img {
 .client__link:focus {
     fill: var(--accent-color);
     border-color: var(--accent-color);
- }
+}
 
 /*button*/
 .button {
