@@ -4,7 +4,7 @@
     padding-bottom: 94px;
 }
 .works {
-    display: flex;
+    /*display: flex;*/
 
     & .works__item {
         width: 370px;
@@ -20,7 +20,7 @@
     display: inline-block;
 }*/
 img {
-    display: block;
+    /*display: block;*/
     max-width: 100%;
     height: auto;
 }
@@ -33,7 +33,7 @@ img {
     position: absolute;
     bottom: 0;
     left: 0;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     width: 370px;

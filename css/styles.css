@@ -47,7 +47,7 @@ ul {
 
 /*Header*/
 .main-nav {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 

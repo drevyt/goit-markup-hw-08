@@ -1,6 +1,6 @@
 /*button*/
 .button {
-    display: inline-block;
+    /*display: inline-block;*/
     border-radius: 4px;
     text-align: center;
     border: 1px solid transparent;
@@ -85,13 +85,13 @@
 }
 
 .filter {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     margin-bottom: 50px;    
 }
 
 .submit-button {
-    display: inline-flex;
+    /*display: inline-flex;*/
     align-items: center;
 
     &::after {
